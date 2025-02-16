@@ -1,0 +1,91 @@
+Version = 15
+Title = "BareRTC"
+Branding = "BareRTC"
+WebsiteURL = "https://localhost.com"
+CORSHosts = ["https://localhost.com"]
+AdminAPIKey = "87ba41ab-c586-483b-b455-89605d7735ac"
+PermitNSFW = true
+BlockableAdmins = false
+UseXForwardedFor = true
+WebSocketReadLimit = 41943040
+WebSocketSendTimeout = 10
+MaxImageWidth = 1280
+PreviewImageWidth = 360
+
+[JWT]
+  Enabled = false
+  Strict = true
+  SecretKey = ""
+  LandingPageURL = ""
+
+[TURN]
+  URLs = ["stun:stun.l.google.com:19302"]
+  Username = ""
+  Credential = ""
+
+[[PublicChannels]]
+  ID = "lobby"
+  Name = "Lobby"
+  Icon = "fa fa-gavel"
+  VIP = false
+  PermitPhotos = false
+  WelcomeMessages = ["Welcome to the chat server!", "Please follow the basic rules:\n\n1. Have fun\n2. Be kind"]
+
+[[PublicChannels]]
+  ID = "offtopic"
+  Name = "Off Topic"
+  VIP = false
+  PermitPhotos = true
+  WelcomeMessages = ["Welcome to the Off Topic channel!"]
+
+[[WebhookURLs]]
+  Name = "report"
+  Enabled = false
+  URL = "https://example.com/barertc/report"
+
+[[WebhookURLs]]
+  Name = "profile"
+  Enabled = false
+  URL = "https://example.com/barertc/user-profile"
+
+[VIP]
+  Name = "VIP"
+  Branding = "<em>VIP Members</em>"
+  Icon = "fa fa-circle"
+  MutuallySecret = false
+
+[[MessageFilters]]
+  Enabled = false
+  PublicChannels = true
+  PrivateChannels = true
+  KeywordPhrases = ["\\bswear words\\b", "\\b(swearing|cursing)\\b", "suck my ([^\\s]+)"]
+  CensorMessage = true
+  ForwardMessage = false
+  ReportMessage = false
+  ChatServerResponse = "Watch your language."
+
+[[ModerationRule]]
+  Username = "example"
+  CameraAlwaysNSFW = false
+  NoBroadcast = false
+  NoVideo = false
+  NoImage = false
+  NoDarkVideo = false
+
+[DirectMessageHistory]
+  Enabled = false
+  SQLiteDatabase = "database.sqlite"
+  RetentionDays = 90
+  DisclaimerMessage = "<i class=\"fa fa-info-circle mr-1\"></i> <strong>Reminder:</strong> please conduct yourself honorably in Direct Messages."
+
+[Strings]
+  ModRuleErrorCameraAlwaysNSFW = "A chat server moderation rule is currently in place which forces your camera to stay marked as Explicit. Please contact a chat moderator if you have any questions about this."
+  ModRuleErrorNoBroadcast = "A chat server moderation rule is currently in place which restricts your ability to share your webcam. Please contact a chat operator for more information."
+  ModRuleErrorNoVideo = "A chat server moderation rule is currently in place which restricts your ability to watch webcams. Please contact a chat operator for more information."
+  ModRuleErrorNoImage = "A chat server moderation rule is currently in place which restricts your ability to share images. Please contact a chat operator for more information."
+
+[Logging]
+  Enabled = false
+  Directory = "./logs"
+  Channels = ["lobby", "offtopic"]
+  Usernames = []
