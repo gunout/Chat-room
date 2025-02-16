@@ -1,0 +1,30 @@
+{{define "index"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/static/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/bulma-prefers-dark.css">
+    <title>Logged Out</title>
+</head>
+<body>
+
+    <div class="container is-fullhd">
+        <div class="content my-5">
+            <h1>Logged Out</h1>
+
+            <p>
+            You are now logged out of the chat room. You may now close this page.
+            </p>
+    </div>
+
+    <script>
+        setTimeout(() => {
+            window.close();
+        }, 5000);
+    </script>
+
+</body>
+</html>
+{{end}}
