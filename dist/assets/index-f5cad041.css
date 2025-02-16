@@ -1,0 +1,167 @@
+/*
+/* color palette from <https://github.com/vuejs/theme>
+:root {
+  --vt-c-white: #ffffff;
+  --vt-c-white-soft: #f8f8f8;
+  --vt-c-white-mute: #f2f2f2;
+
+  --vt-c-black: #181818;
+  --vt-c-black-soft: #222222;
+  --vt-c-black-mute: #282828;
+
+  --vt-c-indigo: #2c3e50;
+
+  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+  --vt-c-text-light-1: var(--vt-c-indigo);
+  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
+  --vt-c-text-dark-1: var(--vt-c-white);
+  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+}
+
+/* semantic color variables for this project
+:root {
+  --color-background: var(--vt-c-white);
+  --color-background-soft: var(--vt-c-white-soft);
+  --color-background-mute: var(--vt-c-white-mute);
+
+  --color-border: var(--vt-c-divider-light-2);
+  --color-border-hover: var(--vt-c-divider-light-1);
+
+  --color-heading: var(--vt-c-text-light-1);
+  --color-text: var(--vt-c-text-light-1);
+
+  --section-gap: 160px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--vt-c-black);
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
+
+    --color-border: var(--vt-c-divider-dark-2);
+    --color-border-hover: var(--vt-c-divider-dark-1);
+
+    --color-heading: var(--vt-c-text-dark-1);
+    --color-text: var(--vt-c-text-dark-2);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*/
+
+.resize-observer[data-v-b329ee4c]{position:absolute;top:0;left:0;z-index:-1;width:100%;height:100%;border:none;background-color:transparent;pointer-events:none;display:block;overflow:hidden;opacity:0}.resize-observer[data-v-b329ee4c] object{display:block;position:absolute;top:0;left:0;height:100%;width:100%;overflow:hidden;pointer-events:none;z-index:-1}.v-popper__popper{z-index:10000;top:0;left:0;outline:none}.v-popper__popper.v-popper__popper--hidden{visibility:hidden;opacity:0;transition:opacity .15s,visibility .15s;pointer-events:none}.v-popper__popper.v-popper__popper--shown{visibility:visible;opacity:1;transition:opacity .15s}.v-popper__popper.v-popper__popper--skip-transition,.v-popper__popper.v-popper__popper--skip-transition>.v-popper__wrapper{transition:none!important}.v-popper__backdrop{position:absolute;top:0;left:0;width:100%;height:100%;display:none}.v-popper__inner{position:relative;box-sizing:border-box;overflow-y:auto}.v-popper__inner>div{position:relative;z-index:1;max-width:inherit;max-height:inherit}.v-popper__arrow-container{position:absolute;width:10px;height:10px}.v-popper__popper--arrow-overflow .v-popper__arrow-container,.v-popper__popper--no-positioning .v-popper__arrow-container{display:none}.v-popper__arrow-inner,.v-popper__arrow-outer{border-style:solid;position:absolute;top:0;left:0;width:0;height:0}.v-popper__arrow-inner{visibility:hidden;border-width:7px}.v-popper__arrow-outer{border-width:6px}.v-popper__popper[data-popper-placement^=top] .v-popper__arrow-inner,.v-popper__popper[data-popper-placement^=bottom] .v-popper__arrow-inner{left:-2px}.v-popper__popper[data-popper-placement^=top] .v-popper__arrow-outer,.v-popper__popper[data-popper-placement^=bottom] .v-popper__arrow-outer{left:-1px}.v-popper__popper[data-popper-placement^=top] .v-popper__arrow-inner,.v-popper__popper[data-popper-placement^=top] .v-popper__arrow-outer{border-bottom-width:0;border-left-color:transparent!important;border-right-color:transparent!important;border-bottom-color:transparent!important}.v-popper__popper[data-popper-placement^=top] .v-popper__arrow-inner{top:-2px}.v-popper__popper[data-popper-placement^=bottom] .v-popper__arrow-container{top:0}.v-popper__popper[data-popper-placement^=bottom] .v-popper__arrow-inner,.v-popper__popper[data-popper-placement^=bottom] .v-popper__arrow-outer{border-top-width:0;border-left-color:transparent!important;border-right-color:transparent!important;border-top-color:transparent!important}.v-popper__popper[data-popper-placement^=bottom] .v-popper__arrow-inner{top:-4px}.v-popper__popper[data-popper-placement^=bottom] .v-popper__arrow-outer{top:-6px}.v-popper__popper[data-popper-placement^=left] .v-popper__arrow-inner,.v-popper__popper[data-popper-placement^=right] .v-popper__arrow-inner{top:-2px}.v-popper__popper[data-popper-placement^=left] .v-popper__arrow-outer,.v-popper__popper[data-popper-placement^=right] .v-popper__arrow-outer{top:-1px}.v-popper__popper[data-popper-placement^=right] .v-popper__arrow-inner,.v-popper__popper[data-popper-placement^=right] .v-popper__arrow-outer{border-left-width:0;border-left-color:transparent!important;border-top-color:transparent!important;border-bottom-color:transparent!important}.v-popper__popper[data-popper-placement^=right] .v-popper__arrow-inner{left:-4px}.v-popper__popper[data-popper-placement^=right] .v-popper__arrow-outer{left:-6px}.v-popper__popper[data-popper-placement^=left] .v-popper__arrow-container{right:-10px}.v-popper__popper[data-popper-placement^=left] .v-popper__arrow-inner,.v-popper__popper[data-popper-placement^=left] .v-popper__arrow-outer{border-right-width:0;border-top-color:transparent!important;border-right-color:transparent!important;border-bottom-color:transparent!important}.v-popper__popper[data-popper-placement^=left] .v-popper__arrow-inner{left:-2px}.v-popper--theme-dropdown .v-popper__inner{background:#fff;color:#000;border-radius:6px;border:1px solid #ddd;box-shadow:0 6px 30px #0000001a}.v-popper--theme-dropdown .v-popper__arrow-inner{visibility:visible;border-color:#fff}.v-popper--theme-dropdown .v-popper__arrow-outer{border-color:#ddd}.v-popper--theme-tooltip .v-popper__inner{background:rgba(0,0,0,.8);color:#fff;border-radius:6px;padding:7px 12px 6px}.v-popper--theme-tooltip .v-popper__arrow-outer{border-color:#000c}
+
+.modal[data-v-776897ce] {
+        /* a high priority modal over other modals. note: bulma's default z-index is 40 for modals */
+        z-index: 42;
+}
+.literal[data-v-776897ce] {
+        white-space: pre-wrap;
+}
+.v3-body-inner{scroll-behavior:smooth;scrollbar-color:#393d3f rgba(0,0,0,.1);scrollbar-width:thin}.v3-body-inner::-webkit-scrollbar{width:8px}.v3-body-inner::-webkit-scrollbar-track{background-color:transparent}.v3-body-inner::-webkit-scrollbar-thumb{display:none;background:rgba(0,0,0,.3);border-radius:5px}.v3-body-inner:hover::-webkit-scrollbar-thumb{display:block}.v3-emoji-picker{height:320px;width:280px;box-shadow:0 2px 10px #0003;border-radius:10px;margin:0 auto;box-sizing:border-box;display:flex;flex-direction:column;text-align:left}.v3-emoji-picker *{box-sizing:border-box}.v3-emoji-picker .v3-header{padding:15px 15px 13px;border-bottom:1px solid}.v3-emoji-picker .v3-header .v3-groups{display:flex}.v3-emoji-picker .v3-header .v3-groups .v3-group{flex-grow:1;padding:0;margin:0;border:none;background:none;font-size:23px;cursor:pointer;position:relative;display:block;opacity:.7;transition:.2s}.v3-emoji-picker .v3-header .v3-groups .v3-group.v3-is-hidden{display:none}.v3-emoji-picker .v3-header .v3-groups .v3-group:first-child,.v3-emoji-picker .v3-header .v3-groups .v3-group:last-child{flex-grow:0}.v3-emoji-picker .v3-header .v3-groups .v3-group:hover{opacity:1}.v3-emoji-picker .v3-header .v3-groups .v3-group span{display:flex;align-items:center;justify-content:center}.v3-emoji-picker .v3-header .v3-groups .v3-group span img{display:block;width:1em;height:auto}.v3-emoji-picker .v3-spacing{height:11px}.v3-emoji-picker .v3-search input{width:100%;display:block;height:26px;padding:0 10px;border:1px solid;border-radius:3px;font-size:12px;transition:.2s}.v3-emoji-picker .v3-search input:focus{outline:none}.v3-emoji-picker .v3-body{padding:0 0 15px 11px;min-height:0;flex-grow:1}.v3-emoji-picker .v3-body .v3-body-inner{flex-grow:1;min-height:0;overflow-y:auto;overflow-x:hidden;height:100%;padding-right:11px}.v3-emoji-picker .v3-body .v3-body-inner .v3-group h5{margin:0;top:0;padding:7px 0 3px 4px;z-index:2}.v3-emoji-picker .v3-body .v3-body-inner .v3-group h5.v3-sticky{position:sticky}.v3-emoji-picker .v3-body .v3-body-inner .v3-group .v3-emojis{display:flex;font-size:18px;flex-wrap:wrap}.v3-emoji-picker .v3-body .v3-body-inner .v3-group .v3-emojis button{cursor:pointer;border:none;background:none;margin:0;text-align:center;display:flex;align-items:center;justify-content:center;flex-basis:12.5%;max-width:12.5%;flex-grow:1;padding:0;font-size:22px;position:relative}.v3-emoji-picker .v3-body .v3-body-inner .v3-group .v3-emojis button:after{content:"";width:100%;padding-bottom:100%}.v3-emoji-picker .v3-body .v3-body-inner .v3-group .v3-emojis button span{display:flex;align-items:center;justify-content:center}.v3-emoji-picker .v3-body .v3-body-inner .v3-group .v3-emojis button img{max-width:100%;padding:4px}.v3-emoji-picker .v3-body .v3-body-inner .v3-group .v3-emojis button span,.v3-emoji-picker .v3-body .v3-body-inner .v3-group .v3-emojis button img{position:absolute;top:0;left:0;width:100%;height:100%}.v3-emoji-picker .v3-body .v3-body-inner.is-mac .v3-emojis button{font-family:"Apple Color Emoji"}.v3-emoji-picker .v3-footer{font-size:14px;border-top:1px solid #dddddd;padding:15px;display:flex;align-items:center;justify-content:space-between;position:relative}.v3-emoji-picker .v3-footer .v3-tone,.v3-emoji-picker .v3-footer .v3-foot-left{display:flex;align-items:center}.v3-emoji-picker .v3-footer .v3-tone img,.v3-emoji-picker .v3-footer .v3-foot-left img{width:20px;display:block}.v3-emoji-picker .v3-footer .v3-tone>span:first-child,.v3-emoji-picker .v3-footer .v3-foot-left>span:first-child{margin-right:6px}.v3-emoji-picker .v3-footer .v3-foot-left>span.v3-text{max-width:100px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.v3-emoji-picker .v3-footer .v3-tone{border:none;padding:0;background:none;cursor:pointer;display:inline-flex;align-items:center}.v3-emoji-picker .v3-footer .v3-tone>span{display:inline-flex;vertical-align:top}.v3-emoji-picker .v3-footer .v3-tone .v3-text{font-size:13px}.v3-emoji-picker .v3-footer .v3-tone .v3-icon{display:inline-flex;height:15px;width:15px;vertical-align:middle;align-self:center;border:2px solid rgba(0,0,0,.2)}.v3-emoji-picker .v3-footer .v3-tone .v3-icon.v3-tone-neutral{background-color:#ffd225}.v3-emoji-picker .v3-footer .v3-tone .v3-icon.v3-tone-1f3fb{background-color:#ffdfbd}.v3-emoji-picker .v3-footer .v3-tone .v3-icon.v3-tone-1f3fc{background-color:#e9c197}.v3-emoji-picker .v3-footer .v3-tone .v3-icon.v3-tone-1f3fd{background-color:#c88e62}.v3-emoji-picker .v3-footer .v3-tone .v3-icon.v3-tone-1f3fe{background-color:#a86637}.v3-emoji-picker .v3-footer .v3-tone .v3-icon.v3-tone-1f3ff{background-color:#60463a}.v3-emoji-picker .v3-footer .v3-tone .is-mac span{font-family:"Apple Color Emoji"}.v3-skin-tones{position:absolute;height:100%;width:60%;top:0;left:0;display:flex;align-items:center;justify-content:flex-end;padding:0 15px;opacity:0;visibility:hidden;transition:.2s;border-radius:0 0 10px 10px}.v3-skin-tones.v3-is-open{opacity:1;visibility:visible}.v3-skin-tones .v3-skin-tone{display:inline-block;height:15px;width:25px;border:none;padding:0;cursor:pointer;transition:0ms}.v3-skin-tones .v3-skin-tone:hover{transform:scale(1.1);transition:.2s}.v3-skin-tones .v3-skin-tone-neutral{color:#ffd225;background-color:#ffd225}.v3-skin-tones .v3-skin-tone-1f3fb{color:#ffdfbd;background-color:#ffdfbd}.v3-skin-tones .v3-skin-tone-1f3fc{color:#e9c197;background-color:#e9c197}.v3-skin-tones .v3-skin-tone-1f3fd{color:#c88e62;background-color:#c88e62}.v3-skin-tones .v3-skin-tone-1f3fe{color:#a86637;background-color:#a86637}.v3-skin-tones .v3-skin-tone-1f3ff{color:#60463a;background-color:#60463a}.v3-input-emoji-picker *{box-sizing:border-box}.v3-input-emoji-picker .v3-input-picker-root{position:relative}.v3-input-emoji-picker .v3-input-picker-root .v3-emoji-picker-input,.v3-input-emoji-picker .v3-input-picker-root .v3-emoji-picker-textarea{width:100%;height:40px;border:1px solid #999;padding-left:15px}.v3-input-emoji-picker .v3-input-picker-root .v3-emoji-picker-textarea{min-height:80px;resize:vertical}.v3-input-emoji-picker .v3-input-picker-root .v3-emoji-picker-textarea+.v3-input-picker-wrap .v3-input-picker-icon{top:auto;bottom:5px}.v3-input-emoji-picker .v3-input-picker-root .v3-input-picker-wrap .v3-input-picker-icon{display:inline-flex;position:absolute;right:5px;top:50%;transform:translateY(-50%);font-size:24px;border:none;background:none;padding:0 5px;cursor:pointer}.v3-input-emoji-picker .v3-input-picker-root .v3-input-picker-wrap .v3-input-picker-icon img{display:block;width:1em;height:1em}.v3-input-emoji-picker .v3-input-picker-root .v3-input-picker-wrap .v3-emoji-picker{opacity:0;visibility:hidden;transition:.2s}.v3-input-emoji-picker .v3-input-picker-root .v3-input-picker-wrap.v3-picker-is-open .v3-emoji-picker{opacity:1;visibility:visible;z-index:999}.v3-emoji-picker{--v3-picker-bg: #ffffff;--v3-picker-fg: #000000;--v3-picker-border: #dddddd;--v3-picker-input-bg: var(--v3-picker-bg);--v3-picker-input-border: #cccccc;--v3-picker-input-focus-border: #000000;--v3-group-image-filter: none;--v3-picker-emoji-hover: #f7f7f7;background:var(--v3-picker-bg);color:var(--v3-picker-fg)}.v3-emoji-picker .v3-footer,.v3-emoji-picker .v3-header{border-color:var(--v3-picker-border)}.v3-emoji-picker .v3-groups{filter:var(--v3-group-image-filter)}.v3-emoji-picker .v3-tone{color:var(--v3-picker-fg)}.v3-emoji-picker .v3-search input{background:var(--v3-picker-input-bg);border-color:var(--v3-picker-input-border);color:inherit}.v3-emoji-picker .v3-search input:focus{border-color:var(--v3-picker-input-focus-border)}.v3-emoji-picker .v3-body .v3-body-inner .v3-group h5,.v3-emoji-picker .v3-skin-tones{background:var(--v3-picker-bg)}.v3-emoji-picker .v3-body .v3-body-inner .v3-group .v3-emojis button:hover{background:var(--v3-picker-emoji-hover, #f7f7f7)}@media (prefers-color-scheme: dark){.v3-emoji-picker.v3-color-theme-auto{--v3-picker-bg: #000000;--v3-picker-fg: #ffffff;--v3-picker-border: #333333;--v3-picker-input-bg: #222222;--v3-picker-input-border: #444444;--v3-picker-input-focus-border: #555555;--v3-group-image-filter: invert(1);--v3-picker-emoji-hover: #222222}}.v3-emoji-picker.v3-color-theme-dark{--v3-picker-bg: #000000;--v3-picker-fg: #ffffff;--v3-picker-border: #333333;--v3-picker-input-bg: #222222;--v3-picker-input-border: #444444;--v3-picker-input-focus-border: #555555;--v3-group-image-filter: invert(1);--v3-picker-emoji-hover: #222222}
+
+.volume-slider[data-v-9c47a4ff] {
+    position: absolute;
+    left: 18px;
+    top: 30px;
+    bottom: 44px;
+}
+
+/* A background image behind video elements in case they don't load properly */
+video[data-v-9c47a4ff] {
+    background-image: url(/static/img/connection-error.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* Translucent controls until mouse over */
+.seethru[data-v-9c47a4ff] {
+    opacity: 0.4;
+}
+
+/* Watermark image */
+.watermark[data-v-9c47a4ff] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    opacity: 0.02;
+    animation-name: subtle-pulsate-9c47a4ff;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.corner-watermark[data-v-9c47a4ff] {
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    width: 20%;
+    min-width: 32px;
+    min-height: 32px;
+    max-height: 20%;
+}
+.invert-color[data-v-9c47a4ff] {
+    filter: invert(100%);
+}
+
+/* Animate the primary watermark to pulsate in opacity */
+@keyframes subtle-pulsate-9c47a4ff {
+0% { opacity: 0.02;
+}
+50% { opacity: 0.04;
+}
+100% { opacity: 0.02;
+}
+}
+
+/* At-mention styles */
+.mention-item {
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+.mention-selected {
+    background: rgb(192, 250, 153);
+}
+
+/* Forcibly truncating long texts */
+.forcibly-truncate-wrapper {
+    position: relative;
+    overflow: hidden !important;
+}
+.forcibly-truncate-body {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.forcibly-single-line {
+    white-space: nowrap;
+}
