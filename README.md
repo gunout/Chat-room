@@ -222,6 +222,9 @@ npm run build
 npm run watch
 ```
 
+![Screenshot_2025-07-02_18-56-07](https://github.com/user-attachments/assets/649c52d1-51c2-49b3-994b-ff3fe29656c3)
+
+
 And `make run` to run the Go server.
 
 # License
